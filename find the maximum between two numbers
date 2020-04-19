@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a, b; //Write a C program to find the maximum between two numbers.
+    scanf("%d %d", &a, &b);
+    if (a>b) 
+    {
+        printf("%d is max", a);
+    }
+    else if (b>a) 
+    {
+        printf("%d is max", b);
+    }
+    else {
+        printf("Both are equal");
+    }
+    return 0;
+}
