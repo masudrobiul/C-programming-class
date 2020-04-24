@@ -1,0 +1,45 @@
+#include <stdio.h>
+int main()
+{
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    if (a>=b)
+    {
+        if (a==b)
+        {
+            printf("a and b is equal\n");
+        }
+        else
+        {
+            printf("a is max\n");
+        }
+    }
+    if (b>=c)
+    {
+        if (b==c)
+        {
+            printf("b and c is equal\n");
+        }
+        else
+        {
+            printf("b is max\n");
+        }
+    }
+    if (c>=a)
+    {
+        if (c==a)
+        {
+            printf("c and a is equal\n");
+        }
+        else
+        {
+            printf("c is max\n");
+        }
+    }
+    else
+    {
+        printf("all are equal\n");
+    }
+
+    return 0;
+}
